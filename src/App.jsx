@@ -11,7 +11,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (!isOpen) return;
+    if (!isOpen || loading || !currentUser) return;
 
     const timer = setTimeout(() => {
       if (currentStoryIndex < currentUser.stories.length - 1) {
@@ -32,7 +32,7 @@ const App = () => {
     }, 5000);
 
     return () => clearTimeout(timer);
-  }, [isOpen, currentStoryIndex, currentUser, currentUserIndex, users]);
+  }, [isOpen, loading, currentStoryIndex, currentUser, currentUserIndex, users]);
 
   const showStory = (user, userIndex) => {
     setIsOpen(true);
