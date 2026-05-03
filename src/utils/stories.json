@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav",
+    "avatar": "https://i.pravatar.cc/100?img=1",
+    "stories": [
+      {
+        "id": 101,
+        "image": "https://picsum.photos/400/700?random=1",
+        "duration": 5000
+      },
+      {
+        "id": 102,
+        "image": "https://picsum.photos/400/700?random=2",
+        "duration": 5000
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Meera",
+    "avatar": "https://i.pravatar.cc/100?img=2",
+    "stories": [
+      {
+        "id": 201,
+        "image": "https://picsum.photos/400/700?random=3",
+        "duration": 5000
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Rohan",
+    "avatar": "https://i.pravatar.cc/100?img=3",
+    "stories": [
+      {
+        "id": 301,
+        "image": "https://picsum.photos/400/700?random=4",
+        "duration": 5000
+      },
+      {
+        "id": 302,
+        "image": "https://picsum.photos/400/700?random=5",
+        "duration": 5000
+      }
+    ]
+  }
+]
