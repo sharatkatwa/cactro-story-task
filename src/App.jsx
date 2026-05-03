@@ -76,7 +76,7 @@ const App = () => {
 
   return (
     <>
-      <div className="w-full h-full antialiased">
+      <div className="w-full max-w-120 h-full antialiased mx-auto shadow-xl">
         {/* story container */}
         {users.length > 0 && (
           <div className="h-30 w-full bg-zinc-200 p-3 flex gap-2 items-center overflow-x-auto">
@@ -94,7 +94,7 @@ const App = () => {
           </div>
         )}
         {isOpen && (
-          <div className=" fixed inset-0 w-full h-full bg-zinc-700/50 z-[99] flex">
+          <div className=" fixed inset-0 w-full max-w-120 h-full bg-zinc-700/50 z-[99] flex mx-auto">
             <button
               onClick={closeStory}
               className="absolute right-5 top-5 text-white shadow-md bg-zinc-800/50 rounded-full w-10 h-10 z-[999] "
